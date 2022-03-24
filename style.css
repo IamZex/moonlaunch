@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(238, 237, 237)
+}
+.layout{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr repeat (3, 1fr) 2fr;
+    grid-template-rows: 10% 40% 20% 20% 10%;
+}
+.header{
+    background-color: rgb(238, 237, 237) ;
+    margin: 10px;
+    display:flex;
+    justify-content: space-around;
+    grid-area: 1/1/2/6;
+}
+.welcome{
+    padding: 10px;
+    font-size: 36px;
+}
+.wen_moon{
+    font-size: large;
+    border-radius: 20px;
+    background-color: #93186c;
+    color: aliceblue;
+    grid-area: 2/2/3/5;
+    padding: 10px;
+}
+p{
+    text-align: center;
+} 
+.floatContainer{
+    text-align: center;
+    border-radius: 20px;
+    grid-area: 3/2/4/5;
+    background-color: #2022bd;
+    font-size: 24px;
+    background-size: 200px;
+    color: aliceblue;
+}
+.moonContainer{
+    text-align: center;
+    border-radius: 20px;
+    grid-area: 4/2/5/5;
+    background-color: #180f66;
+    background-image: url("./photos/pexels-katie-schankula-599928.jpg");
+    color: aliceblue;
+    font-size: 24px;
+}
+#payMe{
+    border-radius: 20px;
+    background-color: #93186c;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    grid-area: 5/2/6/5;
+}
