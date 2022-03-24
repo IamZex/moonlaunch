@@ -1,12 +1,11 @@
 body{
-    background-color: rgb(238, 237, 237);
-    
+    background-color: rgb(238, 237, 237);   
 }
 .layout{
     display: grid;
     gap: 10px;
     grid-template-columns: 2fr repeat (3, 1fr) 2fr;
-    grid-template-rows: 10% 40% 20% 20% 10%;
+    grid-template-rows: 15% 35% 20% 20% 10%;
 }
 .header{
     background-color: rgb(238, 237, 237) ;
@@ -14,10 +13,12 @@ body{
     display:flex;
     justify-content: space-around;
     grid-area: 1/1/2/6;
+
 }
 .welcome{
     padding: 10px;
     font-size: 36px;
+    gap: 20px;
 }
 .wen_moon{
     font-size: large;
@@ -27,15 +28,11 @@ body{
     grid-area: 2/2/3/5;
     padding: 10px;
     overflow: hidden;
-    overflow-y: scroll;
-    
+    overflow-y: scroll; 
 }
-
 ::-webkit-scrollbar {
-       display: none;    
-      
+       display: none;         
 }
-
 p{
     text-align: center;
 } 
@@ -64,4 +61,7 @@ p{
     font-size: 20px;
     text-align: center;
     grid-area: 5/2/6/5;
+}
+.whitespace{
+    color:rgb(238, 237, 237);
 }
