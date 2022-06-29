@@ -1,7 +1,8 @@
-var floatLockDate  = new Date("July 13, 2023 09:30:00").getTime();
+var floatLockDate  = new Date("June 30, 2023 09:30:00").getTime();
 var moonLaunchDate = new Date("Sept 26, 2025 09:30:00").getTime();
-/* "Mar 18, 2024 09:30:00" original float lock date
-    Sept 14, 2026 09:30:00 original moon launch date
+/*  "Mar 18, 2024 09:30:00" original float lock date
+    "Sept 14, 2026 09:30:00 original moon launch date
+    "July 13, 2023 09:30:00" first update float lock
 */
 
 var floatInterval = setInterval(function(){
