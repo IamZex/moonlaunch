@@ -1,0 +1,92 @@
+@font-face{
+    font-family :arimo;
+    src: url(./assets/Arimo/Arimo-VariableFont_wght.ttf)
+}
+body{
+    background-image: url(./darkmoon.jpg); 
+    background-size:100%; 
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+}
+
+p{
+align-self: center;
+}
+
+.countdownContainer{
+    color:rgb(238, 238, 238)
+}
+
+#payMe{
+    color: rgb(238, 238, 238)
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nowShowing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: chocolate;
+    align-items: center;
+    align-content: center;
+    
+}
+.tabs {
+    border:20px;
+    margin: 20px;
+    width: 400px;
+}
+li{
+    margin: 5px;
+    padding:5px;
+    list-style: none;
+}
+.countdownContainer{
+    text-align: center;
+    background-color: rgb(146, 30, 10,50%);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: arimo ;
+}
+.categories li{
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    background-color: aliceblue;
+    align-content: center;
+}
+
+.categories li:hover{
+    cursor: pointer;
+    background-color: rgb(93, 202, 206); 
+    border-color:rgb(93, 202, 206); 
+}
+
+.explanation{
+    margin: 1rem;
+    color:silver;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    max-width: 600px;
+}
+
+.aboutMe{
+    color:silver;;
+}
+
+[data-tab-content]{
+    display: none;
+}
+.active[data-tab-content]{
+    display:block;}
