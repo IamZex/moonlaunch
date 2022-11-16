@@ -67,8 +67,8 @@ tabs.forEach(tab => {
 
 /*starting with computershared.net I calculated a date */
 
-var floatLockDate = new Date("May 8, 2023 09:30:00").getTime();
-var moonLaunchDate = new Date("March 21, 2024 09:30:00").getTime();
+var floatLockDate = new Date("July 9, 2024 09:30:00").getTime();
+var moonLaunchDate = new Date("May 11, 2028 09:30:00").getTime();
 
 /* Here we create the countdown time */
 
