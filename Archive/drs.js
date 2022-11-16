@@ -5,8 +5,9 @@ var moonLaunchDate = new Date("March 21, 2024 09:30:00").getTime();
     "July 13, 2023 09:30:00" first update float lock
     "June 30, 2023 09:30:00" 2nd update float lock
     "Sept 26, 2025 09:30:00" 2nd update moon launch date
-    "July 9, 2024 09:30:00" 3rd updated float lock
-    "May 11, 2028 09:30:00" 3rd updated float lock
+    "May 8, 2023 09:30:00" 3rd update float
+    "July 9, 2024 09:30:00" 4th updated float lock
+    "May 11, 2028 09:30:00" 4th updated float lock
     
 */
 
